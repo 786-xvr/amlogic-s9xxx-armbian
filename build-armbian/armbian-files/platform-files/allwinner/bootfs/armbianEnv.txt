@@ -1,0 +1,10 @@
+verbosity=1
+bootlogo=false
+console=both
+disp_mode=1920x1080p60
+extraargs=systemd.unified_cgroup_hierarchy=0
+overlay_prefix=sun50i-h6
+fdtfile=allwinner/sun50i-h6-tanix-tx6.dtb
+rootdev=UUID=ec65e3d5-9428-47e6-9448-0f0b6b4701da
+rootfstype=ext4
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
